@@ -16,6 +16,8 @@ lib/Samizdat/resources/locale/paypal/ru/paypal.po
 lib/Samizdat/resources/locale/paypal/sv/paypal.po
 lib/Samizdat/resources/locale/paypal/zh/paypal.po
 lib/Samizdat/resources/migrations/pg/40-paypal.sql
+lib/Samizdat/resources/migrations/pg/40-paypal/1/down.sql
+lib/Samizdat/resources/migrations/pg/40-paypal/1/up.sql
 lib/Samizdat/resources/settings/paypal/schema.yml
 lib/Samizdat/resources/templates/paypal/cancel/index.html.ep
 lib/Samizdat/resources/templates/paypal/cancel/index.js

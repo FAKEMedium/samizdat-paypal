@@ -1,4 +1,3 @@
--- 1 up
 --
 -- PostgreSQL database dump
 --
@@ -176,6 +175,3 @@ ALTER TABLE ONLY paypal.ipn_log
 --
 -- PostgreSQL database dump complete
 --
-
--- 1 down
-DROP SCHEMA IF EXISTS paypal CASCADE;
