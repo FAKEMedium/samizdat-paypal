@@ -12,5 +12,5 @@ my $schema = eval { LoadFile(File::Spec->catfile($d,'settings','paypal','schema.
 ok(ref $schema eq 'HASH', 'paypal settings schema loads')
   and is($schema->{'x-samizdat-audience'}, 'operator', 'audience is operator');
 ok(-d File::Spec->catdir($d,'templates','paypal'), 'paypal templates ship');
-ok(scalar(glob(File::Spec->catfile($d,'migrations','pg','*-paypal.sql'))), 'paypal pg migration ships');
+ok(scalar(glob(File::Spec->catfile($d,'migrations','pg','*-paypal','*','up.sql'))), 'paypal pg migration ships');
 done_testing;
